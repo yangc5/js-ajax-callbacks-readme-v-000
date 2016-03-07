@@ -6,5 +6,5 @@ $(document).ready(function(){
     // Here we are getting the element on the page with the id of sentences and
     // insert the response
     $("#sentences").html(response);
-  });
+  }).fail();
 });
